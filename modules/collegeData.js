@@ -167,7 +167,6 @@ module.exports.deleteCourseById = function (courseIdtoDel) {
   });
 };
 
-module.exports.deleteStudentById = function (studentIdtoDel)
 module.exports.deleteStudentById = function (studentIdtoDel) {
   return new Promise((resolve, reject) => {
     Student.destroy({ where: { studentNum: studentIdtoDel } })

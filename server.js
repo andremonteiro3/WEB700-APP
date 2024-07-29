@@ -7,7 +7,7 @@
  *  Name: Andre Hideo Onoda Monteiro Student ID: 101947232 Date: 07/29/2024
  *
  ********************************************************************************/
-var HTTP_PORT = process.env.PORT || 8090;
+var HTTP_PORT = process.env.PORT || 8080;
 var express = require("express");
 const exphbs = require("express-handlebars");
 var path = require("path");
